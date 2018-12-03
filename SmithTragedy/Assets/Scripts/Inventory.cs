@@ -29,6 +29,7 @@ public class Inventory : MonoBehaviour
             {
                 if (newEvidence.name == "Stake")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     murderWeapon = true;
                     PullOut();
@@ -36,48 +37,56 @@ public class Inventory : MonoBehaviour
                 }
                 else if (newEvidence.name == "Letter")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     letter = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "Brochure")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     brochure = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "Laptop")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     laptop = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "Poison")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     poison = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "RobPhone")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     robPhone = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "RileyPhone")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     rileyPhone = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "MattPhone")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     mattPhone = true;
                     PullOut();
                 }
                 else if (newEvidence.name == "SafeFlier")
                 {
+                    newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
                     Destroy(newEvidence);
                     safeFlier = true;
                     PullOut();
