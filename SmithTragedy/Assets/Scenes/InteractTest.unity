@@ -113,6 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &22094960 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1508427207930900, guid: 1a23a95cb09194a4485945ad740944b2,
+    type: 2}
+  m_PrefabInternal: {fileID: 1005649190}
 --- !u!1 &208683480
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,6 +146,7 @@ RectTransform:
   - {fileID: 1175822017}
   - {fileID: 415749072}
   - {fileID: 584678549}
+  - {fileID: 1919411191}
   - {fileID: 533587567}
   m_Father: {fileID: 1860475398}
   m_RootOrder: 1
@@ -310,7 +316,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 208683481}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -368,7 +374,7 @@ GameObject:
   - component: {fileID: 584678551}
   - component: {fileID: 584678550}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Examine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -389,7 +395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1729, y: -849}
+  m_AnchoredPosition: {x: -1729, y: -751.31}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &584678550
@@ -418,7 +424,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 1
     m_MaxSize: 100
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
@@ -426,7 +432,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press E to examine
 
-    Press Q to leave'
+'
 --- !u!222 &584678551
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -577,6 +583,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 4a9dec1203bcd244bad2f474e3fb002a, type: 3}
+--- !u!114 &717674969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 717674966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!1001 &723188767
 Prefab:
   m_ObjectHideFlags: 0
@@ -738,6 +760,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceDes: A brochure for admissions to college taken in Matt's name.
+--- !u!114 &819956048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819956046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!64 &819956050
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -781,9 +819,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: 1
+    name: 
     sentences:
-    - 
+    - "Hey`\t"
+    - Listen!
 --- !u!64 &839757962
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -815,6 +854,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceDes: An old laptop
+--- !u!114 &854580724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 854580722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!64 &854580726
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -846,6 +901,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceDes: A stake, used for staking
+--- !u!114 &899323884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 899323882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!64 &899323886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -971,6 +1042,11 @@ Prefab:
       propertyPath: evidenceDescription
       value: 
       objectReference: {fileID: 533587568}
+    - target: {fileID: 114609809211510234, guid: 1a23a95cb09194a4485945ad740944b2,
+        type: 2}
+      propertyPath: examineText
+      value: 
+      objectReference: {fileID: 584678550}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
   m_IsPrefabAsset: 0
@@ -1412,6 +1488,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceDes: Rob's Phone
+--- !u!114 &1105241321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1105241319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!64 &1105241323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1455,6 +1547,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceDes: Some keys
+--- !u!114 &1115816892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1115816889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!1 &1175822016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,6 +1694,7 @@ MonoBehaviour:
   dialogueText: {fileID: 533587568}
   dialogueUI: {fileID: 208683480}
   endDialogue: 0
+  player: {fileID: 22094960}
 --- !u!1001 &1247588740
 Prefab:
   m_ObjectHideFlags: 0
@@ -1675,6 +1784,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 912fa4538a14f724388aebd6c4b564cb, type: 3}
+--- !u!114 &1247588744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1247588741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!1001 &1602285034
 Prefab:
   m_ObjectHideFlags: 0
@@ -1764,6 +1889,22 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 912fa4538a14f724388aebd6c4b564cb, type: 3}
+--- !u!114 &1602285038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1602285035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!43 &1640650041
 Mesh:
   m_ObjectHideFlags: 0
@@ -1936,6 +2077,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   evidenceDes: Poison... obviously a murder weapon
+--- !u!114 &1670542921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1670542919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Hey`\t"
+    - Listen!
 --- !u!64 &1670542923
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2806,6 +2963,83 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1919411190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919411191}
+  - component: {fileID: 1919411193}
+  - component: {fileID: 1919411192}
+  m_Layer: 5
+  m_Name: Leave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1919411191
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919411190}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 208683481}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1729, y: -849}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1919411192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919411190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 100
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: '
+
+    Press Q to leave'
+--- !u!222 &1919411193
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1919411190}
+  m_CullTransparentMesh: 0
 --- !u!1 &2044764901
 GameObject:
   m_ObjectHideFlags: 0

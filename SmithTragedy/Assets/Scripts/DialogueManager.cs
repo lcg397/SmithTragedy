@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     public GameObject dialogueUI;
     public bool endDialogue;
+    public GameObject player;
 
     // Start is called before the first frame update
     void Start()
@@ -19,9 +20,14 @@ public class DialogueManager : MonoBehaviour
 
 public void StartDialogue(Dialogue dialogue)
     {
-
-        dialogueUI.SetActive(true);
-        nameText.text = dialogue.name;
+        if (dialogueUI.activeInHierarchy == false)
+        {
+            dialogueUI.SetActive(true);
+        }
+        if (nameText != null)
+        {
+            nameText.text = dialogue.name;
+        }
 
         sentences.Clear();
 
@@ -64,8 +70,8 @@ public void StartDialogue(Dialogue dialogue)
 
         dialogueUI.SetActive(false);
         endDialogue = true;
-        sentences = new Queue<string>();
-
+        //sentences = new Queue<string>();
+        player.GetComponent<Interaction>().ResetCharacterPosRot();
 
     }
 }

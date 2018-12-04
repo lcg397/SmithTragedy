@@ -7,89 +7,100 @@ public class Inventory : MonoBehaviour
 {
     public Camera playerCamera;
     public List<GameObject> evidencePrefabs;
-    
+    DialogueManager DM;
     public GameObject newEvidence;
     public GameObject inventoryUI;
-    public Text evidenceDescription;
+
+    public Text evidenceDescription, examineText;
     public bool murderWeapon, letter, brochure, laptop, robPhone, rileyPhone, mattPhone, poison, safeFlier;
-    public bool isViewing;
+    public bool isViewing, dialogueTriggered;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        DM = FindObjectOfType<DialogueManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-     if(isViewing == true)
+     if(isViewing == true && dialogueTriggered == false)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                examineText.text = "E: Next";
                 if (newEvidence.name == "Stake")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     murderWeapon = true;
-                    PullOut();
+                    //PullOut();
 
                 }
-                else if (newEvidence.name == "Letter")
+                if (newEvidence.name == "Letter")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     letter = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "Brochure")
+                if (newEvidence.name == "Brochure")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     brochure = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "Laptop")
+                if (newEvidence.name == "Laptop")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     laptop = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "Poison")
+                if (newEvidence.name == "Poison")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     poison = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "RobPhone")
+                if (newEvidence.name == "RobPhone")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     robPhone = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "RileyPhone")
+                if (newEvidence.name == "RileyPhone")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     rileyPhone = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "MattPhone")
+                if (newEvidence.name == "MattPhone")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                    //Destroy(newEvidence);
                     mattPhone = true;
-                    PullOut();
+                    //PullOut();
                 }
-                else if (newEvidence.name == "SafeFlier")
+                if (newEvidence.name == "SafeFlier")
                 {
+                    dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
-                    Destroy(newEvidence);
+                   // Destroy(newEvidence);
                     safeFlier = true;
-                    PullOut();
+                    //PullOut();
                 }
 
 
@@ -105,10 +116,29 @@ public class Inventory : MonoBehaviour
 
 
         }
+     if(isViewing && dialogueTriggered)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Next Sentence");
+                newEvidence.GetComponent<DialogueTrigger>().NextSentence();
+            }
+            if(DM.endDialogue == true)
+            {
+                DM.endDialogue = false;
+                dialogueTriggered = false;
+
+
+
+
+            }
+
+        }
     }
     public void PullOut()
     {
         isViewing = false;
+        dialogueTriggered = false;
         playerCamera.fieldOfView = 60f;
         GetComponent<Interaction>().ResetCharacterPosRot();
         inventoryUI.SetActive(false);

@@ -14,16 +14,13 @@ public class Interaction : MonoBehaviour
     {
 
     }
-
     // Update is called once per frame
     void Update()
     {
         InteractCast();
     }
-
     void InteractCast()
     {
-
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -31,24 +28,20 @@ public class Interaction : MonoBehaviour
         {
             Debug.Log(hit.transform.gameObject.name.ToString());
             if(Input.GetKeyDown(KeyCode.Mouse0) && hit.transform.gameObject.tag == "Evidence")
-            {
-                  
-
+            {                 
                   GetComponent<Inventory>().newEvidence = hit.transform.gameObject;
                   fpsCon.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().canMove = false;
-                  GetComponent<Inventory>().PullIn();
-                GetComponent<Inventory>().isViewing = true;
-
-            }
-            
-
+                fpsCon.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().canLook = false;
+                GetComponent<Inventory>().PullIn();
+                  GetComponent<Inventory>().isViewing = true;
+            }          
         }
     }
     public void ResetCharacterPosRot()
     {
-
         fpsCon.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().canMove = true;
+        fpsCon.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().canLook = true;
         GetComponent<Inventory>().newEvidence = null;
-    }
-    
+        GetComponent<Inventory>().PullOut();
+    }   
 }
