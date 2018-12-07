@@ -24,7 +24,25 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     if(isViewing == true && dialogueTriggered == false)
+        if (isViewing && dialogueTriggered)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                Debug.Log("Next Sentence");
+                newEvidence.GetComponent<DialogueTrigger>().NextSentence();
+            }
+            if (DM.endDialogue == true)
+            {
+                DM.endDialogue = false;
+                dialogueTriggered = false;
+
+
+
+
+            }
+
+        }
+        if (isViewing == true && dialogueTriggered == false)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -38,7 +56,7 @@ public class Inventory : MonoBehaviour
                     //PullOut();
 
                 }
-                if (newEvidence.name == "Letter")
+                else if (newEvidence.name == "Letter")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -46,7 +64,7 @@ public class Inventory : MonoBehaviour
                     letter = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "Brochure")
+                else if (newEvidence.name == "Brochure")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -54,7 +72,7 @@ public class Inventory : MonoBehaviour
                     brochure = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "Laptop")
+                else if (newEvidence.name == "Laptop")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -62,7 +80,7 @@ public class Inventory : MonoBehaviour
                     laptop = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "Poison")
+                else if (newEvidence.name == "Poison")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -70,7 +88,7 @@ public class Inventory : MonoBehaviour
                     poison = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "RobPhone")
+                else if (newEvidence.name == "RobPhone")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -78,7 +96,7 @@ public class Inventory : MonoBehaviour
                     robPhone = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "RileyPhone")
+                else if (newEvidence.name == "RileyPhone")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -86,7 +104,7 @@ public class Inventory : MonoBehaviour
                     rileyPhone = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "MattPhone")
+                else if (newEvidence.name == "MattPhone")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -94,7 +112,7 @@ public class Inventory : MonoBehaviour
                     mattPhone = true;
                     //PullOut();
                 }
-                if (newEvidence.name == "SafeFlier")
+                else if (newEvidence.name == "SafeFlier")
                 {
                     dialogueTriggered = true;
                     newEvidence.GetComponent<DialogueTrigger>().TriggerDialogue();
@@ -107,41 +125,32 @@ public class Inventory : MonoBehaviour
 
 
             }
+           
+
+
+        }
+        if(isViewing == true)
+        {
+
             if (Input.GetKeyDown(KeyCode.Q))
             {
+                Debug.Log("OUT");
                 PullOut();
 
 
             }
 
-
         }
-     if(isViewing && dialogueTriggered)
-        {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                Debug.Log("Next Sentence");
-                newEvidence.GetComponent<DialogueTrigger>().NextSentence();
-            }
-            if(DM.endDialogue == true)
-            {
-                DM.endDialogue = false;
-                dialogueTriggered = false;
-
-
-
-
-            }
-
-        }
+     
     }
     public void PullOut()
     {
         isViewing = false;
         dialogueTriggered = false;
         playerCamera.fieldOfView = 60f;
-        GetComponent<Interaction>().ResetCharacterPosRot();
+        examineText.text = "Press E to Exzamine";
         inventoryUI.SetActive(false);
+        GetComponent<Interaction>().ResetCharacterPosRot();
 
 
 

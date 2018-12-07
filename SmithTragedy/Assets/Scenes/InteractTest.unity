@@ -132,7 +132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &208683481
 RectTransform:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: An old letter from the Peace Corps. for Matt
+  evidenceDes: An old letter from the Peace Corps. For Matt
 --- !u!114 &839757960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,8 +821,11 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Hey`\t"
-    - Listen!
+    - "\"Mr. Smith we are sorry to inform you \n we cannot accept your service at
+      this time..\""
+    - "\"...we encourage you to apply after studying \nat university or seeking higher
+      education.\""
+    - So, Matt was rejected from the Peace Corps.
 --- !u!64 &839757962
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -853,7 +856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: An old laptop
+  evidenceDes: Matt's old laptop. Has a journal from 6 years ago.
 --- !u!114 &854580724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -868,8 +871,31 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Hey`\t"
-    - Listen!
+    - Read Journal Entry?
+    - "\"...man I hate school sometimes. I would rather just be \n working than sitting
+      at a desk.\""
+    - '"I got home again today and say Riley and Dad deep
+
+      in discussion about the new Iron Man comics...'
+    - '...they seem like they''re having fun.
+
+      I guess I''ll just go to my room or something."'
+    - Read Journal Entry 2?
+    - "\"Dear Mr. Johnson, Thank you so much for helping\n me search for schools for
+      the fall.\""
+    - "\"I decided that I'm not going to go to school \nand just enter the work force.
+      I can't decide...\""
+    - '"What I want to do, so I don''t wanna waste
+
+      money on schooling."'
+    - Read Journal Entry 3?
+    - '"I told my parents I''m not going to go to school."'
+    - '"To say they are furious is an understatement.
+
+      I''m sick of them judging me all of the time."'
+    - "\"As soon as I have enough money I'm leaving this fucking \nhouse. I can't
+      stand all the judgemental staring.\""
+    - End of journal entries.
 --- !u!64 &854580726
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -915,8 +941,11 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Hey`\t"
-    - Listen!
+    - This stake is looks brand new
+    - 'There is blood
+
+      around the tip'
+    - No other damage
 --- !u!64 &899323886
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1487,7 +1516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: Rob's Phone
+  evidenceDes: Rob's Phone. Read Converstions?
 --- !u!114 &1105241321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,8 +1531,29 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Hey`\t"
-    - Listen!
+    - "Rob: Hey Jen. Did you talk to Matt today? \n        He said he got off to come
+      home."
+    - 'Jen: Did he? Glad he could get the time off.'
+    - 'Jen: Didn''t think people like him got benefits'
+    - "Rob: I know... You think he's happy\n         where he is?"
+    - "Jen: What does that matter now?\n        He's made it clear he..."
+    - 'Jen: ...doesn''t give a damn what we think.'
+    - "Rob: I know. I still worry though.\n        I thought we raised him better..."
+    - "Rob: ...than to get a job in construction.\n        He'll never achieve much
+      there."
+    - "Jen: We should have expected he'd be \n       an underachiever. "
+    - "Rob: Yeah... but he's still our son\n        and we need to support him"
+    - 'Jen: Sure, whatever you say.'
+    - Read conversation 2?
+    - "Jen: Rob I need you to stop moving shit\n        in my studio"
+    - "Jen: I've told you it's MY SPACE\n        I don't need you moving everything"
+    - "Rob: Alright, alright. I was organizing \n        but okay. "
+    - 'Jen: Yeah whatever. '
+    - Read conversation 3?
+    - "Jen: They delivered the safe today. There's a paper\n        with the default
+      combination somwhere around."
+    - 'Jen: You can set a new combo later if you want'
+    - End of conversations
 --- !u!64 &1105241323
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1769,7 +1819,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: Riley's Phone
+  evidenceDes: Riley's Phone. Read conversations?
 --- !u!64 &1247588743
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1798,8 +1848,20 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Hey`\t"
-    - Listen!
+    - "Riley: Hi Matt. I heared you got a new\n          job. Congrats! Love you bro."
+    - "Matt: Thanks! I really like it so far.\n         I always liked painting so... "
+    - "Riley: I'm really proud of you.\n          Glad you found something enjoyable."
+    - 'Matt: Thanks! How''s school going?'
+    - 'Riley: Oh it''s fine I guess. '
+    - "Matt: Just fine?\n         "
+    - "Riley: Yeah... I don't know sometimes I \n          wonder why I'm even here.\n
+      \        "
+    - "Riley: Maybe I should have just gone into working\n          Like you."
+    - "Matt: It's not all that great kid. At least now \n         mom and dad won't
+      have two kids..."
+    - "Matt: ..who are disappointments. Just me \n         "
+    - "Riley: I don't think you're a disappointment. \n          "
+    - "End of conversations.\n          "
 --- !u!1001 &1602285034
 Prefab:
   m_ObjectHideFlags: 0
@@ -1874,7 +1936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: Matt's Phone
+  evidenceDes: Matt's Phone. Read Conversations?
 --- !u!64 &1602285037
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1903,8 +1965,27 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - "Hey`\t"
-    - Listen!
+    - "Matt: Hey man! I just got done \n         with my first week."
+    - "Matt: I just want to say thanks\n         for helping me get the job"
+    - "Ryan: Im happy for you bro. \n          How you likin' the painter life?"
+    - "Matt: I think I'm going to like it\n         I always liked art so..."
+    - 'Matt: It''s kinda up my alley'
+    - 'Ryan: Glad you really like it man'
+    - Read conversation 2?
+    - "Matt: Hey dad I got time off\n         and can make it home for mom's birthday"
+    - "Rob: Great! We're looking forward\n        to seeing you."
+    - "Rob: Also, congrats on the new gig.\n        Hopefully a stepping stone to..."
+    - 'Rob: ...a better job.'
+    - "Matt: I don't know I really like where \n         I am."
+    - 'Rob: Don''t be silly Matt. You''re better than this'
+    - Read conversation 3?
+    - "Rob: Hey Matty, I found a university that \n        has open admissions. Take
+      a look!"
+    - "Rob: Hey Matty, I found another school that \n        can take transfers. Please
+      give it a chance."
+    - "Rob: Matt I need you to take your future seriously.\n        You're not going
+      to get anywhere without a degree."
+    - End of conversations.
 --- !u!43 &1640650041
 Mesh:
   m_ObjectHideFlags: 0
@@ -2076,7 +2157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: Poison... obviously a murder weapon
+  evidenceDes: 'A bottle of Antifreeze '
 --- !u!114 &1670542921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2428,6 +2509,10 @@ Prefab:
     - target: {fileID: 400000, guid: 4a9dec1203bcd244bad2f474e3fb002a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4a9dec1203bcd244bad2f474e3fb002a, type: 3}
+      propertyPath: m_Name
+      value: Matt Letter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4a9dec1203bcd244bad2f474e3fb002a, type: 3}
