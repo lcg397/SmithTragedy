@@ -17,7 +17,7 @@ public class WhoDoneItManager : MonoBehaviour {
 	void Update () {
         if (foundAll)
         {
-      
+            con.SetActive(true);
             if (!open)
             {
                 if (Input.GetKeyDown(KeyCode.P))
@@ -78,5 +78,11 @@ public class WhoDoneItManager : MonoBehaviour {
         }
         
 
+    }
+
+    public void GoHome()
+    {
+
+        SceneManager.LoadScene("Menu");
     }
 }

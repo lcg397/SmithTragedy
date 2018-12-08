@@ -646,6 +646,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -1716,6 +1724,14 @@ Prefab:
     - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
       propertyPath: m_Name
       value: Full (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
@@ -3849,6 +3865,14 @@ Prefab:
       propertyPath: m_Name
       value: Full (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -4372,6 +4396,14 @@ Prefab:
     - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
       propertyPath: m_Name
       value: Full (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
@@ -6430,6 +6462,14 @@ Prefab:
     - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
       propertyPath: m_Name
       value: Full (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
@@ -11141,6 +11181,11 @@ Prefab:
       propertyPath: dialogue.sentences.Array.data[0]
       value: An emtpy bottle of antifreeze
       objectReference: {fileID: 0}
+    - target: {fileID: 114476913907940448, guid: 8c9378fb208aeea4b85cd3d669ad5941,
+        type: 2}
+      propertyPath: evidenceDes
+      value: Antifreeze
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c9378fb208aeea4b85cd3d669ad5941, type: 2}
   m_IsPrefabAsset: 0
@@ -11277,7 +11322,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -14.784
+      value: 15.783
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalPosition.y
@@ -11285,7 +11330,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 2.259
+      value: 3.436
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalRotation.x
@@ -11293,7 +11338,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.96480846
+      value: -0.5002815
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalRotation.z
@@ -11301,7 +11346,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.26295373
+      value: -0.8658629
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_RootOrder
@@ -11309,7 +11354,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4548509186921206, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -149.509
+      value: -299.963
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 204234150cdeda34cb3ff77ea20ea0d3, type: 2}
@@ -14678,6 +14723,14 @@ Prefab:
       propertyPath: m_Name
       value: Full (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -16638,7 +16691,7 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - 'Rob''s body. No signs of struggle '
+    - 'No signs of struggle '
     - He has no visible wounds.
 --- !u!114 &766439684
 MonoBehaviour:
@@ -16651,7 +16704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: Riley's
+  evidenceDes: Rob's Body
 --- !u!1001 &766529675
 Prefab:
   m_ObjectHideFlags: 0
@@ -27532,6 +27585,14 @@ Prefab:
       propertyPath: m_Name
       value: Full (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -28668,6 +28729,45 @@ Prefab:
     - target: {fileID: 4577527337312874, guid: 22799a1abbec0cb4db2503f8c6b21429, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -235.11899
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[20]
+      value: "Rob: I think it's time we took matters into \nour hands with Matt\""
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[21]
+      value: "Rob: I can't stand that he's resigned to being a \npainter for the rest
+        of his life."
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[22]
+      value: 'Jen: What do you want to do then?'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[23]
+      value: "Rob: Blazing Heart Community College has \nopen admissions right now.
+        We could apply in his name?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[24]
+      value: 'Jen: I like that idea. Maybe it will be the kick in
+
+        the pants he needs to get his life together.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[25]
+      value: 'Rob: I''ll apply then.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 114484539267737282, guid: 22799a1abbec0cb4db2503f8c6b21429,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[26]
+      value: "Jen: We have to be careful though, he might be\n pretty mad after."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 22799a1abbec0cb4db2503f8c6b21429, type: 2}
@@ -31213,6 +31313,14 @@ Prefab:
     - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
       propertyPath: m_Name
       value: Full (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
@@ -41442,6 +41550,14 @@ Prefab:
       propertyPath: m_Name
       value: Full (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -41679,7 +41795,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.228514
+      value: 7.806
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalPosition.y
@@ -41687,7 +41803,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 5.5501685
+      value: 2.584
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalRotation.x
@@ -41695,7 +41811,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalRotation.y
-      value: -0.999961
+      value: -0.7431743
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalRotation.z
@@ -41703,7 +41819,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalRotation.w
-      value: -0.008837162
+      value: 0.6690979
       objectReference: {fileID: 0}
     - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_RootOrder
@@ -41742,6 +41858,10 @@ Prefab:
     - target: {fileID: 4690287885653904, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076707675403152, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -96.005005
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a23a95cb09194a4485945ad740944b2, type: 2}
@@ -42642,29 +42762,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010032622294, guid: d6f681ceec8139a41b02e1dbc7233efa,
     type: 2}
   m_PrefabInternal: {fileID: 1364554177}
---- !u!1 &1364989758 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1322786796121474, guid: 1a23a95cb09194a4485945ad740944b2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1323821088}
---- !u!119 &1364989760
-Projector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1364989758}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_NearClipPlane: 0.1
-  m_FarClipPlane: 8.3
-  m_FieldOfView: 60
-  m_AspectRatio: 1
-  m_Orthographic: 1
-  m_OrthographicSize: -0.02
-  m_Material: {fileID: 2100000, guid: 2f622d86e927d884b9fd0127854233ee, type: 2}
-  m_IgnoreLayers:
-    serializedVersion: 2
-    m_Bits: 1335
 --- !u!4 &1367335914 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000010188878348, guid: 4219613040e7ee140ba97dfa512f6a91,
@@ -45299,6 +45396,14 @@ Prefab:
       propertyPath: m_Name
       value: Full (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -46121,6 +46226,51 @@ Prefab:
       propertyPath: inv
       value: 
       objectReference: {fileID: 906704973}
+    - target: {fileID: 114468580121639374, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_Text
+      value: /12
+      objectReference: {fileID: 0}
+    - target: {fileID: 224281399628085276, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 874
+      objectReference: {fileID: 0}
+    - target: {fileID: 114017488796963748, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_Text
+      value: '00 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 224932285293156888, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 983.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224722936821347292, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 998.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224932285293156888, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 431
+      objectReference: {fileID: 0}
+    - target: {fileID: 224722936821347292, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 429
+      objectReference: {fileID: 0}
+    - target: {fileID: 224214236900619002, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 224250398464654680, guid: b4024eee01685cb4a9d9e516f4da4329,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4024eee01685cb4a9d9e516f4da4329, type: 2}
   m_IsPrefabAsset: 0
@@ -47203,6 +47353,14 @@ Prefab:
     - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
       propertyPath: m_Name
       value: Full (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
@@ -53193,7 +53351,7 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - Jen's body. No signs of struggle
+    - No signs of struggle
     - She has no wounds on her body
 --- !u!114 &1798165143
 MonoBehaviour:
@@ -53206,7 +53364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  evidenceDes: Riley's
+  evidenceDes: Jen's Body
 --- !u!1001 &1800760609
 Prefab:
   m_ObjectHideFlags: 0
@@ -53724,6 +53882,12 @@ Prefab:
     - target: {fileID: 4182572522182322, guid: 72b1b5c5cb23ebd41819f549e2cdb324, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -124.58101
+      objectReference: {fileID: 0}
+    - target: {fileID: 114435040545385536, guid: 72b1b5c5cb23ebd41819f549e2cdb324,
+        type: 2}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: "Riley: Yeah... I don't know sometimes I \n          wonder why I'm even
+        here.    "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72b1b5c5cb23ebd41819f549e2cdb324, type: 2}
@@ -56832,6 +56996,14 @@ Prefab:
       propertyPath: m_Name
       value: Full (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 1775373561982940, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d78a7ebc34c11f5498f7e2a38b95b093, type: 2}
   m_IsPrefabAsset: 0
@@ -57944,7 +58116,7 @@ MonoBehaviour:
   dialogue:
     name: 
     sentences:
-    - 'Riley''s body. Obvious signs of struggle,
+    - 'Obvious signs of struggle,
 
       split knuckles.'
     - He has a single stab wound to the chest.
