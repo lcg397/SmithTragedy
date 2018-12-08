@@ -1,0 +1,162 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1122909308408562}
+  m_IsPrefabAsset: 1
+--- !u!1 &1122909308408562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4577527337312874}
+  - component: {fileID: 33821623082937826}
+  - component: {fileID: 23191418996188844}
+  - component: {fileID: 64031394876637482}
+  - component: {fileID: 114647430476908098}
+  - component: {fileID: 114484539267737282}
+  m_Layer: 9
+  m_Name: RobPhone
+  m_TagString: Evidence
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4577527337312874
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122909308408562}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: -1.5641999, y: 1.1006, z: 1.4400071}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
+--- !u!23 &23191418996188844
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122909308408562}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 912fa4538a14f724388aebd6c4b564cb, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33821623082937826
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122909308408562}
+  m_Mesh: {fileID: 4300000, guid: 912fa4538a14f724388aebd6c4b564cb, type: 3}
+--- !u!64 &64031394876637482
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122909308408562}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 912fa4538a14f724388aebd6c4b564cb, type: 3}
+--- !u!114 &114484539267737282
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122909308408562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da55cbee42be6d04bbec348859043b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - "Rob: Hey Jen. Did you talk to Matt today? \n        He said he got off to come
+      home."
+    - 'Jen: Did he? Glad he could get the time off.'
+    - 'Jen: Didn''t think people like him got benefits'
+    - "Rob: I know... You think he's happy\n         where he is?"
+    - "Jen: What does that matter now?\n        He's made it clear he..."
+    - 'Jen: ...doesn''t give a damn what we think.'
+    - "Rob: I know. I still worry though.\n        I thought we raised him better..."
+    - "Rob: ...than to get a job in construction.\n        He'll never achieve much
+      there."
+    - "Jen: We should have expected he'd be \n       an underachiever. "
+    - "Rob: Yeah... but he's still our son\n        and we need to support him"
+    - 'Jen: Sure, whatever you say.'
+    - Read conversation 2?
+    - "Jen: Rob I need you to stop moving shit\n        in my studio"
+    - "Jen: I've told you it's MY SPACE\n        I don't need you moving everything"
+    - "Rob: Alright, alright. I was organizing \n        but okay. "
+    - 'Jen: Yeah whatever. '
+    - Read conversation 3?
+    - "Jen: They delivered the safe today. There's a paper\n        with the default
+      combination somwhere around."
+    - 'Jen: You can set a new combo later if you want'
+    - Read last conversation?
+    - "Rob: \"I think it's time we took matters into \nour hands with Matt\""
+    - "Rob: \"I can't stand that he's resigned to being a \npainter for the rest of
+      his life.\""
+    - 'Jen: "What do you want to do then?"'
+    - "Rob: \"Blazing Heart Community College has \nopen admissions right now. We
+      could apply in his name?\""
+    - 'Jen: "I like that idea. Maybe it will be the kick in
+
+      the pants he needs to get his life together."'
+    - 'Rob: "I''ll apply then."'
+    - "Jen: \"We have to be careful though, he might be\n pretty mad after.\""
+--- !u!114 &114647430476908098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1122909308408562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e4b490c152176d4f9770fc28573729e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  evidenceDes: Rob's Phone. Read Converstions?

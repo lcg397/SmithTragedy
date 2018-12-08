@@ -31,7 +31,7 @@ GameObject:
   m_IsActive: 1
 --- !u!1 &1322786796121474
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
@@ -72,11 +72,10 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1508427207930900}
   m_LocalRotation: {x: -0, y: -0.999961, z: -0, w: -0.008837162}
-  m_LocalPosition: {x: -1.0486426, y: 1.78, z: 8.097581}
+  m_LocalPosition: {x: -4.228514, y: 6.25, z: 5.5501685}
   m_LocalScale: {x: 0.77620107, y: 0.77620107, z: 0.77620107}
   m_Children:
   - {fileID: 4166262097354358}
-  - {fileID: 4690287885653904}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -181.01299, z: 0}
@@ -89,7 +88,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4690287885653904}
   m_Father: {fileID: 4076707675403152}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -99,12 +99,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1322786796121474}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4076707675403152}
-  m_RootOrder: 1
+  m_Father: {fileID: 4166262097354358}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20745139915707334
 Camera:
@@ -421,7 +421,9 @@ MonoBehaviour:
   evidencePrefabs: []
   newEvidence: {fileID: 0}
   inventoryUI: {fileID: 0}
+  JournalUI: {fileID: 0}
   evidenceDescription: {fileID: 0}
+  examineText: {fileID: 0}
   murderWeapon: 0
   letter: 0
   brochure: 0
@@ -431,8 +433,16 @@ MonoBehaviour:
   mattPhone: 0
   poison: 0
   safeFlier: 0
+  mattBody: 0
+  rileyBody: 0
+  jenBody: 0
+  robBody: 0
   isViewing: 0
   dialogueTriggered: 0
+  journalOpen: 0
+  foundUI: {fileID: 0}
+  foundNum: 0
+  whom: {fileID: 0}
 --- !u!124 &124687060603753650
 Behaviour:
   m_ObjectHideFlags: 1
